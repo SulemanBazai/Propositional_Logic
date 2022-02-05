@@ -63,6 +63,22 @@ ExclusiveDisjunction = go.Figure(data=[go.Table(
 ExclusiveDisjunction.update_layout(width=500, height=300)
 ExclusiveDisjunction.show()
 
+JointDenial = go.Figure(data=[go.Table(
+    header=dict(values=['A', 'B', 'A ↓ B'],
+                line_color='darkslategray',
+                fill_color='plum',
+                align='left'),
+    cells=dict(values=[['True', 'True', 'False', 'False'],  # 1st column = A
+                       ['True', 'False', 'True', 'False'],  # 2nd column = B
+                       ['False', 'False', 'False', 'True']],  # 3rd column = A ⊻ B
+               line_color='darkslategray',
+               fill_color=[['mistyrose','lavenderblush','mistyrose','lavenderblush']],
+               align='left'))
+])
+
+JointDenial.update_layout(width=500, height=300)
+JointDenial.show()
+
 Implication = go.Figure(data=[go.Table(
     header=dict(values=['A', 'B', 'A → B'],
                 line_color='darkslategray',
