@@ -12,7 +12,7 @@ Negation = go.Figure(data=[go.Table(
                align='left'))
 ])
 
-Negation.update_layout(width=500, height=300)
+Negation.update_layout(width=800, height=300)
 Negation.show()
 
 Conjunction = go.Figure(data=[go.Table(
@@ -28,7 +28,7 @@ Conjunction = go.Figure(data=[go.Table(
                align='left'))
 ])
 
-Conjunction.update_layout(width=500, height=300)
+Conjunction.update_layout(width=800, height=300)
 Conjunction.show()
 
 InclusiveDisjunction = go.Figure(data=[go.Table(
@@ -44,7 +44,7 @@ InclusiveDisjunction = go.Figure(data=[go.Table(
                align='left'))
 ])
 
-InclusiveDisjunction.update_layout(width=500, height=300)
+InclusiveDisjunction.update_layout(width=700, height=300)
 InclusiveDisjunction.show()
 
 ExclusiveDisjunction = go.Figure(data=[go.Table(
@@ -60,7 +60,7 @@ ExclusiveDisjunction = go.Figure(data=[go.Table(
                align='left'))
 ])
 
-ExclusiveDisjunction.update_layout(width=500, height=300)
+ExclusiveDisjunction.update_layout(width=800, height=300)
 ExclusiveDisjunction.show()
 
 JointDenial = go.Figure(data=[go.Table(
@@ -76,7 +76,7 @@ JointDenial = go.Figure(data=[go.Table(
                align='left'))
 ])
 
-JointDenial.update_layout(width=500, height=300)
+JointDenial.update_layout(width=800, height=300)
 JointDenial.show()
 
 Implication = go.Figure(data=[go.Table(
@@ -92,7 +92,7 @@ Implication = go.Figure(data=[go.Table(
                align='left'))
 ])
 
-Implication.update_layout(width=500, height=300)
+Implication.update_layout(width=800, height=300)
 Implication.show()
 
 Equivalence = go.Figure(data=[go.Table(
@@ -108,5 +108,5 @@ Equivalence = go.Figure(data=[go.Table(
                align='left'))
 ])
 
-Equivalence.update_layout(width=500, height=300)
+Equivalence.update_layout(width=800, height=300)
 Equivalence.show()
